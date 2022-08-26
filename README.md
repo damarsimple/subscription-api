@@ -3,11 +3,14 @@
 run these command to get started
 
 `composer install`
-`php artisan migrate`
 `cp .env.example .env`
 `php artisan key:generate`
 
 edit .env to suit your database information
+
+`php artisan migrate`
+`php artisan db:seed`
+
 
 
 ## Models
